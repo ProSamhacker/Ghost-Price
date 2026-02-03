@@ -2,7 +2,7 @@
  * API Client for GhostPrice FastAPI Backend
  */
 
-import { Product, ComparisonData } from './types';
+import type { Product, ComparisonData } from './mockData';
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 const AMAZON_TAG = import.meta.env.VITE_AMAZON_TAG || 'lifecycle-20';
